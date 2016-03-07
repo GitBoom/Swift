@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
-
+func add(x:Int,_  y:Int,_ z:Int){
+    print("\(x)+\(y)+\(z)=\(x+y+z)")
+}
+add(10,20,30)
