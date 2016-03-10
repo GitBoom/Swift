@@ -38,3 +38,21 @@ let emptyString = ""
 let emptyString1 = String()
 
 let swift = "Swift is fun."
+let swiftCopy = swift
+print(swift)
+
+let charA: Character = "A"
+let charB = "B"
+
+for char in swift.characters {
+    print(char)
+}
+
+let swiftInChar: [Character] = ["S","w","i","f","t"]
+let swift1 = String(swiftInChar)
+
+let swift2 = swift + swift1
+
+
+let PI1 = 3.14
+let message = "PI * 100 equals to \(PI1 * 100)"
