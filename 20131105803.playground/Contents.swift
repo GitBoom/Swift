@@ -2,30 +2,39 @@
 
 import Cocoa
 
-var array = [123,34,54,65,324,89,165,145]
 
-print("排序前：")
+let possibleNumber = "123"
+var convertResule = Int(possibleNumber)
 
-for item in array
-{
-    var ii = item
-    print(ii)
+print(convertResule)
+
+convertResule.dynamicType
+
+var x:Int?
+var address:String?
+var successRate:Double?
+
+//convertResule = nil
+
+
+if convertResule != nilHandleErr{
+    print(convertResule!)
 }
 
-for var i = 0;i < array.count - 1; ++i {
-    for var j = 0;j < array.count - 1 - i; ++j{
-        if array[j] > array[j+1]{
-            var temp = array[j+1]
-            array[j+1] = array[j]
-            array[j] = temp
-        }
-    }
+if let number = convertResule {
+    print(number)
 }
 
-print("排序后：")
-
-for item in array
-{
-    var ii = item
-    print(ii)
+else {
+    print("Convert result is nil")
 }
+
+var possibleString: String! = "A dangerous way!"
+
+print(possibleString)
+
+possibleString + " Use it with caution!"
+let blingHeart = "\u{1F496}"
+
+
+

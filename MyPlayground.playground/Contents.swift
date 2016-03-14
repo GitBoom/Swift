@@ -56,3 +56,24 @@ let swift2 = swift + swift1
 
 let PI1 = 3.14
 let message = "PI * 100 equals to \(PI1 * 100)"
+
+let messageLength = message.characters.count
+
+let anotherE = "\u{65}\u{301}"
+let cafe = "caf" + anotherE
+cafe.characters.count
+
+let cafe1 = cafe + "\u{20DD}"
+
+cafe1.characters.count
+
+
+cafe.startIndex
+cafe.endIndex
+cafe1.endIndex
+
+cafe[cafe.startIndex.successor()]
+cafe[cafe.endIndex.predecessor()]
+
+cafe[cafe.startIndex.advancedBy(3)]
+
