@@ -50,23 +50,23 @@ class ViewController: UIViewController {
     @IBAction func PlusMinus(sender: AnyObject) {
     }
     @IBAction func Percent(sender: AnyObject) {
-        Calculator.SetAlgorthm.(.percent)
+        Calculator.SetAlgorthm(.percent)
         equal()
     }
     @IBAction func Division(sender: AnyObject) {
-        Calculator.SetAlgorthm.(.division)
+        Calculator.SetAlgorthm(.division)
         equal()
     }
     @IBAction func Multipled(sender: AnyObject) {
-        Calculator.SetAlgorthm.(.multipled)
+        Calculator.SetAlgorthm(.multipled)
         equal()
     }
     @IBAction func Reduction(sender: AnyObject) {
-        Calculator.SetAlgorthm.(.reduction)
+        Calculator.SetAlgorthm(.reduction)
         equal()
     }
     @IBAction func Add(sender: AnyObject) {
-        Calculator.SetAlgorthm.(.add)
+        Calculator.SetAlgorthm(.add)
         equal()
     }
     @IBAction func Equal(sender: AnyObject) {
@@ -77,7 +77,8 @@ class ViewController: UIViewController {
     
     }
     
-    func equal(){
+    func equal() {
+        
     }
     
     override func viewDidLoad() {
