@@ -21,6 +21,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0i-Ke-Yz7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kjY-ol-Adw">
                                 <rect key="frame" x="-1" y="171" width="80" height="80"/>
@@ -30,6 +33,9 @@
                                 <state key="normal" title="AC">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="AllClaer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAi-Fh-z0o"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5W6-X6-wb0">
                                 <rect key="frame" x="-1" y="333" width="80" height="80"/>
@@ -39,15 +45,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qqh-XW-ry3">
-                                <rect key="frame" x="-1" y="414" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="1">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="Four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6AW-hv-1SM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9Nb-0s-32b">
                                 <rect key="frame" x="80" y="171" width="80" height="80"/>
@@ -57,6 +57,9 @@
                                 <state key="normal" title="+/-">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="PlusMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0n-2l-xQY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VvW-JG-gL3">
                                 <rect key="frame" x="80" y="252" width="80" height="80"/>
@@ -66,6 +69,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Eight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWf-vO-9x9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f9c-ps-ArC">
                                 <rect key="frame" x="80" y="333" width="80" height="80"/>
@@ -75,15 +81,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="blO-kH-21J">
-                                <rect key="frame" x="80" y="414" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="2">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="Five:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hja-JH-dSu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6ya-sA-gM7">
                                 <rect key="frame" x="161" y="171" width="80" height="80"/>
@@ -93,6 +93,9 @@
                                 <state key="normal" title="%">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Percent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="701-DI-uwk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9O0-wQ-oVR">
                                 <rect key="frame" x="242" y="171" width="80" height="80"/>
@@ -100,9 +103,12 @@
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
-                                <state key="normal" title="/">
+                                <state key="normal" title="÷">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="95o-GN-6ZP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7kI-3A-IKh">
                                 <rect key="frame" x="161" y="252" width="80" height="80"/>
@@ -112,15 +118,21 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Nine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULS-12-8is"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bnl-vF-iDA">
                                 <rect key="frame" x="242" y="252" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="*">
+                                <state key="normal" title="×">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Multipled:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lwl-Rm-76M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="akq-kt-qbQ">
                                 <rect key="frame" x="161" y="333" width="80" height="80"/>
@@ -130,6 +142,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGb-ob-ZLp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lHG-9g-Bf9">
                                 <rect key="frame" x="242" y="333" width="80" height="80"/>
@@ -139,6 +154,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Reduction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXb-Wr-vYG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="etu-Vg-1qH">
                                 <rect key="frame" x="161" y="414" width="80" height="80"/>
@@ -148,6 +166,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOl-UA-ykM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XZL-Zv-4qz">
                                 <rect key="frame" x="242" y="414" width="80" height="80"/>
@@ -157,6 +178,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddF-mh-qma"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ghg-bS-Jeb">
                                 <rect key="frame" x="0.0" y="495" width="160" height="80"/>
@@ -166,6 +190,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Zero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2d-Py-jYd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wtu-LW-fmO">
                                 <rect key="frame" x="161" y="495" width="80" height="80"/>
@@ -175,6 +202,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NMx-MR-ymU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FII-Ui-PSc">
                                 <rect key="frame" x="242" y="495" width="80" height="80"/>
@@ -184,6 +214,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMI-4X-95T"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="输入" borderStyle="bezel" textAlignment="right" minimumFontSize="17" id="TKG-ce-ucx">
                                 <rect key="frame" x="-1" y="-8" width="321" height="164"/>
@@ -192,10 +225,35 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qqh-XW-ry3">
+                                <rect key="frame" x="-1" y="414" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="One:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLs-8N-bBl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="blO-kH-21J">
+                                <rect key="frame" x="80" y="414" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1h6-kA-BOv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <connections>
+                        <outlet property="One" destination="qqh-XW-ry3" id="Wok-Xj-hw2"/>
                         <outlet property="TextBox" destination="TKG-ce-ucx" id="f9n-uX-yFz"/>
                     </connections>
                 </viewController>

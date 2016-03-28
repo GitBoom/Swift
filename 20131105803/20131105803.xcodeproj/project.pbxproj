@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8275ECF1CA95D0D00783639 /* 结构体.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8275ECE1CA95D0D00783639 /* 结构体.swift */; };
 		C89C097E1CA0157500E9EB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097D1CA0157500E9EB80 /* AppDelegate.swift */; };
 		C89C09801CA0157500E9EB80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097F1CA0157500E9EB80 /* ViewController.swift */; };
 		C89C09831CA0157500E9EB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C09811CA0157500E9EB80 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8275ECE1CA95D0D00783639 /* 结构体.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "结构体.swift"; sourceTree = "<group>"; };
 		C89C097A1CA0157500E9EB80 /* 20131105803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20131105803.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89C097D1CA0157500E9EB80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C89C097F1CA0157500E9EB80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				C89C09841CA0157500E9EB80 /* Assets.xcassets */,
 				C89C09861CA0157500E9EB80 /* LaunchScreen.storyboard */,
 				C89C09891CA0157500E9EB80 /* Info.plist */,
+				C8275ECE1CA95D0D00783639 /* 结构体.swift */,
 			);
 			path = 20131105803;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				C89C09801CA0157500E9EB80 /* ViewController.swift in Sources */,
 				C89C097E1CA0157500E9EB80 /* AppDelegate.swift in Sources */,
+				C8275ECF1CA95D0D00783639 /* 结构体.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				C89C09A41CA0157500E9EB80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C89C09A51CA0157500E9EB80 /* Build configuration list for PBXNativeTarget "20131105803Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				C89C09A71CA0157500E9EB80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C89C09A81CA0157500E9EB80 /* Build configuration list for PBXNativeTarget "20131105803UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				C89C09AA1CA0157500E9EB80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
