@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct equal {
+struct Equal {
     private var CurrentAlgorthm:algorthm =  .NoChoose
     
     mutating func SetAlgorthm(temp:algorthm){

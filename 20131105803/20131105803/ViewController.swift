@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     var Calculator = Equal()
+    var ShowCache = ""
+    var Cache = 0.0
+    var Cache2:Double?
 
     @IBOutlet weak var TextBox: UITextField!
     @IBAction func One(sender: AnyObject) {
@@ -69,15 +72,36 @@ class ViewController: UIViewController {
         Calculator.SetAlgorthm(.add)
         equal()
     }
-    @IBAction func Equal(sender: AnyObject) {
+    @IBAction func Result(sender: AnyObject) {
         equal()
     }
     
     func Touch(Number:String){
-    
+        ShowCache += Number
+        TextBox.text = ShowCache
     }
     
     func equal() {
+        var result = ""
+        
+        if !ShowCache.isEmpty {
+            let temp = ShowCache as NSString
+            Cache = temp.doubleValue
+            ShowCache = ""
+        }
+        let temp = Cache
+        
+        if let TheNumber1 = Cache2{
+            
+            result = Calculator.求结果(Number1: TheNumber1, Number2: temp)
+            TextBox.text = result
+            let temp2 = result as NSString
+            Cache2 = temp2.doubleValue
+        
+        }else{
+            Cache2 = Cache
+            Cache = 0.0
+        }
         
     }
     

@@ -25,18 +25,6 @@
                                     <action selector="Seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0i-Ke-Yz7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kjY-ol-Adw">
-                                <rect key="frame" x="-1" y="171" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <state key="normal" title="AC">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="AllClaer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAi-Fh-z0o"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5W6-X6-wb0">
                                 <rect key="frame" x="-1" y="333" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -215,7 +203,7 @@
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMI-4X-95T"/>
+                                    <action selector="Result:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G4L-UF-Ygq"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="输入" borderStyle="bezel" textAlignment="right" minimumFontSize="17" id="TKG-ce-ucx">
@@ -234,7 +222,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="One:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLs-8N-bBl"/>
+                                    <action selector="One:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ec3-m8-ITG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="blO-kH-21J">
@@ -249,11 +237,22 @@
                                     <action selector="Two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1h6-kA-BOv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kjY-ol-Adw">
+                                <rect key="frame" x="-1" y="171" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="AllClaer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAi-Fh-z0o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <connections>
-                        <outlet property="One" destination="qqh-XW-ry3" id="Wok-Xj-hw2"/>
                         <outlet property="TextBox" destination="TKG-ce-ucx" id="f9n-uX-yFz"/>
                     </connections>
                 </viewController>
