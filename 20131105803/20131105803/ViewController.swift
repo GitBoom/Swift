@@ -49,8 +49,15 @@ class ViewController: UIViewController {
         Touch(".")
     }
     @IBAction func AllClaer(sender: AnyObject) {
+        ShowCache = ""
+        Cache = 0.0
+        Cache2 = nil
+        Calculator.SetAlgorthm(.NoChoose)
+        TextBox.text = "0"
     }
     @IBAction func PlusMinus(sender: AnyObject) {
+        ShowCache = "-"+ShowCache
+        TextBox.text = ShowCache
     }
     @IBAction func Percent(sender: AnyObject) {
         Calculator.SetAlgorthm(.percent)
@@ -79,6 +86,7 @@ class ViewController: UIViewController {
     func Touch(Number:String){
         ShowCache += Number
         TextBox.text = ShowCache
+
     }
     
     func equal() {
