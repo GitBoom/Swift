@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var ShowCache = ""
     var Cache = 0.0
     var Cache2:Double?
+    var PointNumber = 0;
 
     @IBOutlet weak var TextBox: UITextField!
     @IBAction func One(sender: AnyObject) {
@@ -43,12 +44,23 @@ class ViewController: UIViewController {
         Touch("9")
     }
     @IBAction func Zero(sender: AnyObject) {
-        Touch("0")
+        if(TextBox.text=="0"){
+            TextBox.text=TextBox.text!+""
+        }
+        else{
+            Touch("0")
+        }
     }
     @IBAction func Point(sender: AnyObject) {
-        Touch(".")
+        if TextBox.text=="0"{
+            TextBox.text=TextBox.text!+"."
+        }
+        else{
+            Touch(".")
+        }
     }
     @IBAction func AllClaer(sender: AnyObject) {
+        PointNumber = 0
         ShowCache = ""
         Cache = 0.0
         Cache2 = nil
@@ -64,18 +76,38 @@ class ViewController: UIViewController {
         equal()
     }
     @IBAction func Division(sender: AnyObject) {
+        if Calculator.ReadAlgorthm() != .division{
+            equal()
+            Calculator.SetAlgorthm(.division)
+            return
+        }
         Calculator.SetAlgorthm(.division)
         equal()
     }
     @IBAction func Multipled(sender: AnyObject) {
+        if Calculator.ReadAlgorthm() != .multipled{
+            equal()
+            Calculator.SetAlgorthm(.multipled)
+            return
+        }
         Calculator.SetAlgorthm(.multipled)
         equal()
     }
     @IBAction func Reduction(sender: AnyObject) {
+        if Calculator.ReadAlgorthm() != .reduction{
+        equal()
+        Calculator.SetAlgorthm(.reduction)
+        return
+        }
         Calculator.SetAlgorthm(.reduction)
         equal()
     }
     @IBAction func Add(sender: AnyObject) {
+        if Calculator.ReadAlgorthm() != .add{
+        equal()
+        Calculator.SetAlgorthm(.add)
+        return
+        }
         Calculator.SetAlgorthm(.add)
         equal()
     }
@@ -84,12 +116,19 @@ class ViewController: UIViewController {
     }
     
     func Touch(Number:String){
+        if Number == "."{
+            PointNumber++
+        }
+        if Number == "." && PointNumber > 1{
+            return
+        }
         ShowCache += Number
         TextBox.text = ShowCache
 
     }
     
     func equal() {
+        PointNumber = 0
         var result = ""
         
         if !ShowCache.isEmpty {

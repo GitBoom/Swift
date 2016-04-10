@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C8275ECF1CA95D0D00783639 /* 结构体.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8275ECE1CA95D0D00783639 /* 结构体.swift */; };
+		C8419AE01CBA82BE00CCE60E /* Images-4.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */; };
+		C8419AE21CBA831900CCE60E /* Icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = C8419AE11CBA831900CCE60E /* Icon.ico */; };
 		C89C097E1CA0157500E9EB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097D1CA0157500E9EB80 /* AppDelegate.swift */; };
 		C89C09801CA0157500E9EB80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097F1CA0157500E9EB80 /* ViewController.swift */; };
 		C89C09831CA0157500E9EB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C09811CA0157500E9EB80 /* Main.storyboard */; };
-		C89C09851CA0157500E9EB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89C09841CA0157500E9EB80 /* Assets.xcassets */; };
 		C89C09881CA0157500E9EB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C09861CA0157500E9EB80 /* LaunchScreen.storyboard */; };
 		C89C09931CA0157500E9EB80 /* _0131105803Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C09921CA0157500E9EB80 /* _0131105803Tests.swift */; };
 		C89C099E1CA0157500E9EB80 /* _0131105803UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C099D1CA0157500E9EB80 /* _0131105803UITests.swift */; };
@@ -36,11 +37,12 @@
 
 /* Begin PBXFileReference section */
 		C8275ECE1CA95D0D00783639 /* 结构体.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "结构体.swift"; sourceTree = "<group>"; };
+		C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-4.xcassets"; sourceTree = "<group>"; };
+		C8419AE11CBA831900CCE60E /* Icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = Icon.ico; path = ../../../../Downloads/Icon.ico; sourceTree = "<group>"; };
 		C89C097A1CA0157500E9EB80 /* 20131105803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20131105803.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89C097D1CA0157500E9EB80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C89C097F1CA0157500E9EB80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C89C09821CA0157500E9EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C89C09841CA0157500E9EB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C89C09871CA0157500E9EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C89C09891CA0157500E9EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C89C098E1CA0157500E9EB80 /* 20131105803Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20131105803Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,13 +101,14 @@
 		C89C097C1CA0157500E9EB80 /* 20131105803 */ = {
 			isa = PBXGroup;
 			children = (
+				C8419AE11CBA831900CCE60E /* Icon.ico */,
 				C89C097D1CA0157500E9EB80 /* AppDelegate.swift */,
 				C89C097F1CA0157500E9EB80 /* ViewController.swift */,
 				C89C09811CA0157500E9EB80 /* Main.storyboard */,
-				C89C09841CA0157500E9EB80 /* Assets.xcassets */,
 				C89C09861CA0157500E9EB80 /* LaunchScreen.storyboard */,
 				C89C09891CA0157500E9EB80 /* Info.plist */,
 				C8275ECE1CA95D0D00783639 /* 结构体.swift */,
+				C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */,
 			);
 			path = 20131105803;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					C89C09791CA0157500E9EB80 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JL9NJUDU9X;
 					};
 					C89C098D1CA0157500E9EB80 = {
 						CreatedOnToolsVersion = 7.2;
@@ -233,8 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C89C09881CA0157500E9EB80 /* LaunchScreen.storyboard in Resources */,
-				C89C09851CA0157500E9EB80 /* Assets.xcassets in Resources */,
 				C89C09831CA0157500E9EB80 /* Main.storyboard in Resources */,
+				C8419AE21CBA831900CCE60E /* Icon.ico in Resources */,
+				C8419AE01CBA82BE00CCE60E /* Images-4.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = 20131105803/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.-0131105803";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1105803";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,10 +425,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = 20131105803/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.-0131105803";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1105803";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
