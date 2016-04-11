@@ -44,20 +44,10 @@ class ViewController: UIViewController {
         Touch("9")
     }
     @IBAction func Zero(sender: AnyObject) {
-        if(TextBox.text=="0"){
-            TextBox.text=TextBox.text!+""
-        }
-        else{
-            Touch("0")
-        }
+        Touch("0")
     }
     @IBAction func Point(sender: AnyObject) {
-        if TextBox.text=="0"{
-            TextBox.text=TextBox.text!+"."
-        }
-        else{
-            Touch(".")
-        }
+        Touch(".")
     }
     @IBAction func AllClaer(sender: AnyObject) {
         PointNumber = 0
@@ -65,7 +55,7 @@ class ViewController: UIViewController {
         Cache = 0.0
         Cache2 = nil
         Calculator.SetAlgorthm(.NoChoose)
-        TextBox.text = "0"
+        self.TextBox.text = "0"
     }
     @IBAction func PlusMinus(sender: AnyObject) {
         ShowCache = "-"+ShowCache
@@ -123,7 +113,7 @@ class ViewController: UIViewController {
             return
         }
         ShowCache += Number
-        TextBox.text = ShowCache
+        self.TextBox.text = ShowCache
 
     }
     

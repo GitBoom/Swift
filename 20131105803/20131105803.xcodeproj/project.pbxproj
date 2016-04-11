@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C8275ECF1CA95D0D00783639 /* 结构体.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8275ECE1CA95D0D00783639 /* 结构体.swift */; };
-		C8419AE01CBA82BE00CCE60E /* Images-4.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */; };
-		C8419AE21CBA831900CCE60E /* Icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = C8419AE11CBA831900CCE60E /* Icon.ico */; };
+		C860A19E1CBBA4A60022DAC8 /* Icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = C860A19D1CBBA4A60022DAC8 /* Icon.ico */; };
+		C860A1A01CBBA5310022DAC8 /* Images-5.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C860A19F1CBBA5310022DAC8 /* Images-5.xcassets */; };
 		C89C097E1CA0157500E9EB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097D1CA0157500E9EB80 /* AppDelegate.swift */; };
 		C89C09801CA0157500E9EB80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C097F1CA0157500E9EB80 /* ViewController.swift */; };
 		C89C09831CA0157500E9EB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C09811CA0157500E9EB80 /* Main.storyboard */; };
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		C8275ECE1CA95D0D00783639 /* 结构体.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "结构体.swift"; sourceTree = "<group>"; };
-		C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-4.xcassets"; sourceTree = "<group>"; };
-		C8419AE11CBA831900CCE60E /* Icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = Icon.ico; path = ../../../../Downloads/Icon.ico; sourceTree = "<group>"; };
+		C860A19D1CBBA4A60022DAC8 /* Icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = Icon.ico; path = ../../../Icon.ico; sourceTree = "<group>"; };
+		C860A19F1CBBA5310022DAC8 /* Images-5.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-5.xcassets"; sourceTree = "<group>"; };
 		C89C097A1CA0157500E9EB80 /* 20131105803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20131105803.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89C097D1CA0157500E9EB80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C89C097F1CA0157500E9EB80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,14 +101,14 @@
 		C89C097C1CA0157500E9EB80 /* 20131105803 */ = {
 			isa = PBXGroup;
 			children = (
-				C8419AE11CBA831900CCE60E /* Icon.ico */,
+				C860A19D1CBBA4A60022DAC8 /* Icon.ico */,
 				C89C097D1CA0157500E9EB80 /* AppDelegate.swift */,
 				C89C097F1CA0157500E9EB80 /* ViewController.swift */,
 				C89C09811CA0157500E9EB80 /* Main.storyboard */,
 				C89C09861CA0157500E9EB80 /* LaunchScreen.storyboard */,
 				C89C09891CA0157500E9EB80 /* Info.plist */,
 				C8275ECE1CA95D0D00783639 /* 结构体.swift */,
-				C8419ADF1CBA82BE00CCE60E /* Images-4.xcassets */,
+				C860A19F1CBBA5310022DAC8 /* Images-5.xcassets */,
 			);
 			path = 20131105803;
 			sourceTree = "<group>";
@@ -236,10 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C860A19E1CBBA4A60022DAC8 /* Icon.ico in Resources */,
+				C860A1A01CBBA5310022DAC8 /* Images-5.xcassets in Resources */,
 				C89C09881CA0157500E9EB80 /* LaunchScreen.storyboard in Resources */,
 				C89C09831CA0157500E9EB80 /* Main.storyboard in Resources */,
-				C8419AE21CBA831900CCE60E /* Icon.ico in Resources */,
-				C8419AE01CBA82BE00CCE60E /* Images-4.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
