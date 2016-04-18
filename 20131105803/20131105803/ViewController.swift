@@ -144,7 +144,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        NSThread.sleepForTimeInterval(2.0)//延长3秒
+        NSThread.sleepForTimeInterval(2.0)//延长2秒
         // Do any additional setup after loading the view, typically from a nib.
     }
 
