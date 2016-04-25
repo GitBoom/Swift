@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82998C91CCE42E900BD84CA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C82998C81CCE42E900BD84CA /* libsqlite3.0.tbd */; };
+		C82998D11CCE4CA500BD84CA /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82998CE1CCE4CA500BD84CA /* SQLiteDB.swift */; };
+		C82998D21CCE4CA500BD84CA /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82998CF1CCE4CA500BD84CA /* SQLTable.swift */; };
+		C82998D31CCE4CA500BD84CA /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82998D01CCE4CA500BD84CA /* String-Extras.swift */; };
+		C82998D51CCE4D1200BD84CA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = C82998D41CCE4D1200BD84CA /* data.db */; };
 		C8D555F21CBF3D3D0086149F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D555F11CBF3D3D0086149F /* AppDelegate.swift */; };
 		C8D555F41CBF3D3D0086149F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D555F31CBF3D3D0086149F /* ViewController.swift */; };
 		C8D555F71CBF3D3D0086149F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D555F51CBF3D3D0086149F /* Main.storyboard */; };
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C82998C81CCE42E900BD84CA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C82998CC1CCE47EC00BD84CA /* Header-aq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Header-aq.h"; path = "../Header-aq.h"; sourceTree = "<group>"; };
+		C82998CE1CCE4CA500BD84CA /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
+		C82998CF1CCE4CA500BD84CA /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
+		C82998D01CCE4CA500BD84CA /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
+		C82998D41CCE4D1200BD84CA /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
 		C8D555EE1CBF3D3D0086149F /* 计分器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计分器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D555F11CBF3D3D0086149F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8D555F31CBF3D3D0086149F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82998C91CCE42E900BD84CA /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +86,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C82998CD1CCE4C6500BD84CA /* sq */ = {
+			isa = PBXGroup;
+			children = (
+				C82998CE1CCE4CA500BD84CA /* SQLiteDB.swift */,
+				C82998CF1CCE4CA500BD84CA /* SQLTable.swift */,
+				C82998D01CCE4CA500BD84CA /* String-Extras.swift */,
+			);
+			name = sq;
+			sourceTree = "<group>";
+		};
 		C8D555E51CBF3D3D0086149F = {
 			isa = PBXGroup;
 			children = (
+				C82998C81CCE42E900BD84CA /* libsqlite3.0.tbd */,
+				C82998D41CCE4D1200BD84CA /* data.db */,
+				C82998CD1CCE4C6500BD84CA /* sq */,
 				C8D555F01CBF3D3D0086149F /* 计分器 */,
 				C8D556051CBF3D3D0086149F /* 计分器Tests */,
 				C8D556101CBF3D3D0086149F /* 计分器UITests */,
@@ -97,6 +122,7 @@
 		C8D555F01CBF3D3D0086149F /* 计分器 */ = {
 			isa = PBXGroup;
 			children = (
+				C82998CC1CCE47EC00BD84CA /* Header-aq.h */,
 				C8D555F11CBF3D3D0086149F /* AppDelegate.swift */,
 				C8D555F31CBF3D3D0086149F /* ViewController.swift */,
 				C8D555F51CBF3D3D0086149F /* Main.storyboard */,
@@ -233,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8D555FC1CBF3D3D0086149F /* LaunchScreen.storyboard in Resources */,
+				C82998D51CCE4D1200BD84CA /* data.db in Resources */,
 				C8D555F91CBF3D3D0086149F /* Assets.xcassets in Resources */,
 				C8D555F71CBF3D3D0086149F /* Main.storyboard in Resources */,
 			);
@@ -259,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82998D31CCE4CA500BD84CA /* String-Extras.swift in Sources */,
+				C82998D11CCE4CA500BD84CA /* SQLiteDB.swift in Sources */,
+				C82998D21CCE4CA500BD84CA /* SQLTable.swift in Sources */,
 				C8D555F41CBF3D3D0086149F /* ViewController.swift in Sources */,
 				C8D555F21CBF3D3D0086149F /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Header-aq.h";
 			};
 			name = Debug;
 		};
@@ -417,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Header-aq.h";
 			};
 			name = Release;
 		};
@@ -487,6 +519,7 @@
 				C8D556181CBF3D3D0086149F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D556191CBF3D3D0086149F /* Build configuration list for PBXNativeTarget "计分器Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +528,7 @@
 				C8D5561B1CBF3D3D0086149F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8D5561C1CBF3D3D0086149F /* Build configuration list for PBXNativeTarget "计分器UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +537,7 @@
 				C8D5561E1CBF3D3D0086149F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

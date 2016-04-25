@@ -97,16 +97,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSa-jq-ghW">
-                                <rect key="frame" x="20" y="472" width="141" height="35"/>
-                                <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="暂停"/>
-                                <connections>
-                                    <action selector="Pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsq-4u-Cft"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovh-Tz-qRg">
-                                <rect key="frame" x="163" y="472" width="137" height="35"/>
+                                <rect key="frame" x="163" y="436" width="137" height="35"/>
                                 <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="重置"/>
                                 <connections>
@@ -114,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llh-du-OVJ">
-                                <rect key="frame" x="20" y="509" width="141" height="35"/>
+                                <rect key="frame" x="20" y="436" width="141" height="35"/>
                                 <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="撤销"/>
                                 <connections>
@@ -122,23 +114,46 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6O-4P-4jd">
-                                <rect key="frame" x="163" y="509" width="137" height="35"/>
+                                <rect key="frame" x="93" y="509" width="137" height="35"/>
                                 <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="保存成绩"/>
+                                <connections>
+                                    <action selector="Save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bka-q3-bEv"/>
+                                </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="S8U-BP-E7h">
                                 <rect key="frame" x="27" y="296" width="267" height="87"/>
                                 <date key="date" timeIntervalSinceReferenceDate="482903141.93227601">
                                     <!--2016-04-21 03:45:41 +0000-->
                                 </date>
+                                <locale key="locale" localeIdentifier="zh_CN"/>
                             </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWn-n5-nrz">
+                                <rect key="frame" x="20" y="399" width="141" height="35"/>
+                                <color key="backgroundColor" red="0.13725490196078433" green="0.85490196078431369" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="Begin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yem-5q-5DX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSa-jq-ghW">
+                                <rect key="frame" x="163" y="399" width="137" height="35"/>
+                                <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="Pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsq-4u-Cft"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74139595566257066" green="0.85984502459120016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.95606060131847759" green="1" blue="0.90802493212186863" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="CountDown" destination="S8U-BP-E7h" id="OD2-A8-knm"/>
                         <outlet property="LeftTextField" destination="XuH-QP-zHl" id="Kwa-t0-Kb4"/>
                         <outlet property="RightTextField" destination="WVV-k3-4nl" id="j5Y-1m-lTk"/>
+                        <outlet property="Team1" destination="o7p-pX-RQe" id="sWD-UE-t89"/>
+                        <outlet property="Team2" destination="XMo-cW-r2F" id="NDH-8E-fga"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
