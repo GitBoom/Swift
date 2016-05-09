@@ -19,17 +19,27 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgY-rq-C29">
                                 <rect key="frame" x="66" y="423" width="46" height="30"/>
-                                <state key="normal" title="进入"/>
+                                <state key="normal" title="新建">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="mFZ-Uj-WRu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51k-df-Zln">
                                 <rect key="frame" x="207" y="423" width="46" height="30"/>
-                                <state key="normal" title="设置"/>
+                                <state key="normal" title="历史">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CLf-tk-xyf" kind="modal" id="Kwh-9t-VAa"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bx5-uH-tdo">
+                                <rect key="frame" x="20" y="49" width="280" height="245"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.69019607843137254" green="0.82352941176470584" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqa-IU-IXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -37,6 +47,24 @@
             <point key="canvasLocation" x="-211" y="9"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="hdp-U6-7nU">
+            <objects>
+                <viewController id="CLf-tk-xyf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="McZ-0v-9k6"/>
+                        <viewControllerLayoutGuide type="bottom" id="wUh-dB-q5C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="We7-Y3-ela">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.63137254901960782" green="0.7803921568627451" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACP-1i-swC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-211" y="701"/>
+        </scene>
+        <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="计分器" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,14 +114,6 @@
                                 <state key="normal" title="1分"/>
                                 <connections>
                                     <action selector="Left1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ock-iV-C8W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43L-jd-6Yh">
-                                <rect key="frame" x="163" y="169" width="137" height="35"/>
-                                <color key="backgroundColor" red="0.90588235294117647" green="0.45490196078431372" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3分"/>
-                                <connections>
-                                    <action selector="Right3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a3P-Ux-KJ2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUq-sg-ioc">
@@ -152,13 +172,6 @@
                                     <action selector="Save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bka-q3-bEv"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="S8U-BP-E7h">
-                                <rect key="frame" x="27" y="296" width="267" height="87"/>
-                                <date key="date" timeIntervalSinceReferenceDate="482903141.93227601">
-                                    <!--2016-04-21 03:45:41 +0000-->
-                                </date>
-                                <locale key="locale" localeIdentifier="zh_CN"/>
-                            </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWn-n5-nrz">
                                 <rect key="frame" x="20" y="399" width="141" height="35"/>
                                 <color key="backgroundColor" red="0.13725490196078433" green="0.85490196078431369" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
@@ -175,12 +188,28 @@
                                     <action selector="Pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsq-4u-Cft"/>
                                 </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uwz-U2-dpf">
+                                <rect key="frame" x="20" y="286" width="280" height="100"/>
+                                <date key="date" timeIntervalSinceReferenceDate="484489354.59526998">
+                                    <!--2016-05-09 12:22:34 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="zh_CN"/>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43L-jd-6Yh">
+                                <rect key="frame" x="163" y="169" width="137" height="35"/>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.45490196078431372" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="3分"/>
+                                <connections>
+                                    <action selector="Right3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a3P-Ux-KJ2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74139595566257066" green="0.85984502459120016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.95606060131847759" green="1" blue="0.90802493212186863" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="Gkh-38-XEr"/>
                     <connections>
-                        <outlet property="CountDown" destination="S8U-BP-E7h" id="OD2-A8-knm"/>
+                        <outlet property="CountDown" destination="Uwz-U2-dpf" id="YMs-rr-kHZ"/>
                         <outlet property="LeftTextField" destination="XuH-QP-zHl" id="Kwa-t0-Kb4"/>
                         <outlet property="RightTextField" destination="WVV-k3-4nl" id="j5Y-1m-lTk"/>
                         <outlet property="Team1" destination="o7p-pX-RQe" id="sWD-UE-t89"/>

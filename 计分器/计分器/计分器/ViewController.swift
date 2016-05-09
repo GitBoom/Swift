@@ -54,6 +54,7 @@ class ViewController: UIViewController {
     @IBAction func Cancel(sender: AnyObject) {
     }
     @IBOutlet weak var CountDown: UIDatePicker!
+    
     @IBAction func Begin(sender: AnyObject) {
         
     }
@@ -67,13 +68,17 @@ class ViewController: UIViewController {
             let user = data[data.count - 1]
             LeftTextField.text = user["uname"] as? String
             RightTextField.text = user["mobile"] as? String
+            Team1.text = user["team1"] as? String
+            Team2.text = user["team2"] as? String
         }
     }
     func save() {
         let uname = self.LeftTextField.text!
         let mobile = self.RightTextField.text!
+        let team1 = self.Team1.text!
+        let team2 = self.Team2.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
-        let sql = "insert into t_user(uname,mobile) values('\(uname)','\(mobile)')"
+        let sql = "insert into t_user(uname,mobile,team1,team2) values('\(uname)','\(mobile)','\(team1)','\(team2)')"
         print("sql: \(sql)")
         //通过封装的方法执行sql
         let result = db.execute(sql)
