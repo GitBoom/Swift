@@ -12,6 +12,7 @@
 		C82998D21CCE4CA500BD84CA /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82998CF1CCE4CA500BD84CA /* SQLTable.swift */; };
 		C82998D31CCE4CA500BD84CA /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82998D01CCE4CA500BD84CA /* String-Extras.swift */; };
 		C82998D51CCE4D1200BD84CA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = C82998D41CCE4D1200BD84CA /* data.db */; };
+		C883C8FC1CE42B6A006696FA /* lishiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883C8FB1CE42B6A006696FA /* lishiViewController.swift */; };
 		C8D555F21CBF3D3D0086149F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D555F11CBF3D3D0086149F /* AppDelegate.swift */; };
 		C8D555F41CBF3D3D0086149F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D555F31CBF3D3D0086149F /* ViewController.swift */; };
 		C8D555F71CBF3D3D0086149F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D555F51CBF3D3D0086149F /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		C82998CF1CCE4CA500BD84CA /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
 		C82998D01CCE4CA500BD84CA /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
 		C82998D41CCE4D1200BD84CA /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		C883C8FB1CE42B6A006696FA /* lishiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lishiViewController.swift; sourceTree = "<group>"; };
 		C8D555EE1CBF3D3D0086149F /* 计分器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计分器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D555F11CBF3D3D0086149F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8D555F31CBF3D3D0086149F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				C8D555F81CBF3D3D0086149F /* Assets.xcassets */,
 				C8D555FA1CBF3D3D0086149F /* LaunchScreen.storyboard */,
 				C8D555FD1CBF3D3D0086149F /* Info.plist */,
+				C883C8FB1CE42B6A006696FA /* lishiViewController.swift */,
 			);
 			path = "计分器";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C883C8FC1CE42B6A006696FA /* lishiViewController.swift in Sources */,
 				C82998D31CCE4CA500BD84CA /* String-Extras.swift in Sources */,
 				C82998D11CCE4CA500BD84CA /* SQLiteDB.swift in Sources */,
 				C82998D21CCE4CA500BD84CA /* SQLTable.swift in Sources */,
