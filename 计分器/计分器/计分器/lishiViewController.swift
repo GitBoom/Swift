@@ -22,10 +22,15 @@ class lishiViewController: UIViewController {
     @IBOutlet weak var LiShiText: UITextView!
     func initUser(){
         let data = db.query("select * from t_user")
-        if data.count > 0 {
-            let user = data[data.count - 1]
-            LiShiText.text = user["team1"] as? String
-        }
+        var temp:String = ""
+            for(var i=0;i<data.count;i++){
+                let user = data[i]
+                temp  = (user["team1"] as? String)!+"VS"+(user["team2"] as? String)!+"       "+(user["uname"] as? String)!+":"+(user["mobile"] as? String)!+"\r"
+                LiShiText.text! += temp
+            }
+        
+        //LiShiText.text = temp
+
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

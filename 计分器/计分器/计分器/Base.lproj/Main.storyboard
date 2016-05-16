@@ -64,8 +64,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKO-0u-7LY">
+                                <rect key="frame" x="218" y="476" width="82" height="30"/>
+                                <state key="normal" title="清空数据"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EA-gF-9vP">
-                                <rect key="frame" x="101" y="328" width="46" height="30"/>
+                                <rect key="frame" x="20" y="476" width="46" height="30"/>
                                 <state key="normal" title="返回"/>
                                 <connections>
                                     <segue destination="lQA-ph-jUe" kind="modal" id="JJM-m3-HSy"/>
