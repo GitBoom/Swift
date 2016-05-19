@@ -29,8 +29,11 @@ class lishiViewController: UIViewController {
                 LiShiText.text! += temp
             }
         
-        //LiShiText.text = temp
 
+    }
+    @IBAction func Clean(sender: AnyObject) {
+        LiShiText.text=" "
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
