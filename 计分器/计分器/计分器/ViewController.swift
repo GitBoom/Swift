@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     var ShowNumber = 0
     var ShowNumber2 = 0
     var remainTime:Double!
+    var times:NSTimer!
+    var isBegin:Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
         //获取数据库实例
@@ -29,6 +31,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var RightTextField: UITextField!
     @IBOutlet weak var Team1: UITextField!
     @IBOutlet weak var Team2: UITextField!
+    @IBOutlet weak var Time: UILabel!
+    var _time:Int = 720
     @IBAction func Left3(sender: AnyObject) {
         Touch(3)
     }
@@ -53,10 +57,28 @@ class ViewController: UIViewController {
     }
     @IBAction func Cancel(sender: AnyObject) {
     }
-    @IBOutlet weak var CountDown: UIDatePicker!
-    
+    @IBOutlet weak var pause: UIButton!
     @IBAction func Begin(sender: AnyObject) {
-        
+        if !isBegin{
+            times = NSTimer.scheduledTimerWithTimeInterval(1,target:self,selector:Selector("tickDown"),userInfo: nil,repeats: true)
+            pause.setTitle("暂停", forState: UIControlState.Normal)
+            isBegin = true
+        }else{
+            times.invalidate()
+            isBegin = false
+            pause.setTitle("开始", forState: UIControlState.Normal)
+        }
+    }
+    func tickDown()
+    {
+        _time-=1
+        let sec = _time%60
+        let min = _time/60
+        Time.text = String(min)+":"+String(sec)
+        if(_time == 0){
+            Time.text = String(12)+":"+String(00)
+            _time = 720
+        }
     }
     @IBAction func Save(sender: AnyObject) {
         save()

@@ -33,6 +33,10 @@ class lishiViewController: UIViewController {
     }
     @IBAction func Clean(sender: AnyObject) {
         LiShiText.text=" "
+        let sql = "DROP TABLE t_user;"
+        print("sql: \(sql)")
+        let result = db.execute(sql)
+        print(result)
         
     }
     override func didReceiveMemoryWarning() {
