@@ -5,6 +5,7 @@
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>1.ico</string>
+		<string>2.ico</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

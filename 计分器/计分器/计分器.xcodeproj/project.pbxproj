@@ -21,6 +21,9 @@
 		C8D555FC1CBF3D3D0086149F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D555FA1CBF3D3D0086149F /* LaunchScreen.storyboard */; };
 		C8D556071CBF3D3D0086149F /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D556061CBF3D3D0086149F /* ___Tests.swift */; };
 		C8D556121CBF3D3D0086149F /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D556111CBF3D3D0086149F /* ___UITests.swift */; };
+		C8E8C2F31CF6993D00A64695 /* 2.ico in Resources */ = {isa = PBXBuildFile; fileRef = C8E8C2F21CF6993D00A64695 /* 2.ico */; };
+		C8E8C2F51CF69E1900A64695 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8C2F41CF69E1900A64695 /* loginViewController.swift */; };
+		C8E8C2F71CF6A64A00A64695 /* zhuceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8C2F61CF6A64A00A64695 /* zhuceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		C8D5560D1CBF3D3D0086149F /* 计分器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计分器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D556111CBF3D3D0086149F /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		C8D556131CBF3D3D0086149F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E8C2F21CF6993D00A64695 /* 2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = 2.ico; path = ../../../2.ico; sourceTree = "<group>"; };
+		C8E8C2F41CF69E1900A64695 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		C8E8C2F61CF6A64A00A64695 /* zhuceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zhuceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C81D2E821CF33CCD0018EC53 /* 1.ico */,
+				C8E8C2F21CF6993D00A64695 /* 2.ico */,
 				C82998C81CCE42E900BD84CA /* libsqlite3.0.tbd */,
 				C82998D41CCE4D1200BD84CA /* data.db */,
 				C82998CD1CCE4C6500BD84CA /* sq */,
@@ -135,6 +142,8 @@
 				C8D555FA1CBF3D3D0086149F /* LaunchScreen.storyboard */,
 				C8D555FD1CBF3D3D0086149F /* Info.plist */,
 				C883C8FB1CE42B6A006696FA /* lishiViewController.swift */,
+				C8E8C2F41CF69E1900A64695 /* loginViewController.swift */,
+				C8E8C2F61CF6A64A00A64695 /* zhuceViewController.swift */,
 			);
 			path = "计分器";
 			sourceTree = "<group>";
@@ -264,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E8C2F31CF6993D00A64695 /* 2.ico in Resources */,
 				C8D555FC1CBF3D3D0086149F /* LaunchScreen.storyboard in Resources */,
 				C82998D51CCE4D1200BD84CA /* data.db in Resources */,
 				C8D555F91CBF3D3D0086149F /* Assets.xcassets in Resources */,
@@ -293,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E8C2F51CF69E1900A64695 /* loginViewController.swift in Sources */,
 				C883C8FC1CE42B6A006696FA /* lishiViewController.swift in Sources */,
+				C8E8C2F71CF6A64A00A64695 /* zhuceViewController.swift in Sources */,
 				C82998D31CCE4CA500BD84CA /* String-Extras.swift in Sources */,
 				C82998D11CCE4CA500BD84CA /* SQLiteDB.swift in Sources */,
 				C82998D21CCE4CA500BD84CA /* SQLTable.swift in Sources */,
