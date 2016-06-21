@@ -14,7 +14,7 @@ class zhuceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dl = SQLiteDB.sharedInstance()
-        dl.execute("create table if not exists t_user(uid integer primary key,uname varchar(20),upassword varchar(20))")
+        dl.execute("create table if not exists t_zhuce(uid integer primary key,uname varchar(20),upassword varchar(20))")
         initUser()
 
         // Do any additional setup after loading the view.
@@ -26,7 +26,7 @@ class zhuceViewController: UIViewController {
         save()
     }
     func initUser() {
-        let data = dl.query("select * from t_user")
+        let data = dl.query("select * from t_zhuce")
         if data.count > 0 {
             //获取最后一行数据显示
             let user = data[data.count - 1]
@@ -39,7 +39,7 @@ class zhuceViewController: UIViewController {
         let uname = self.Name.text!
         let upassword = self.Password.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
-        let sql = "insert into t_user(uname,upasssword) values('\(uname)','\(upassword)')"
+        let sql = "insert into t_zhuce(uname,upasssword) values('\(uname)','\(upassword)')"
         print("sql: \(sql)")
         //通过封装的方法执行sql
         let result = dl.execute(sql)

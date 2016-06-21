@@ -54,8 +54,11 @@ class ViewController: UIViewController {
     @IBAction func Pause(sender: AnyObject) {
     }
     @IBAction func Reset(sender: AnyObject) {
+        Time.text = String(12)+":"+String(00)
+        //_time = 720
     }
     @IBAction func Cancel(sender: AnyObject) {
+        
     }
     @IBOutlet weak var pause: UIButton!
     @IBAction func Begin(sender: AnyObject) {

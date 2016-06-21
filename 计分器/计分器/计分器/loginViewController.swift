@@ -13,6 +13,7 @@ class loginViewController: UIViewController {
     var dl:SQLiteDB!
     override func viewDidLoad() {
         super.viewDidLoad()
+        NSThread.sleepForTimeInterval(2.0)//延长2秒
         dl = SQLiteDB.sharedInstance()
         //initUser()
 
@@ -25,6 +26,7 @@ class loginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*
