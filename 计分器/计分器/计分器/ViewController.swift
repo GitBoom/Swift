@@ -54,12 +54,17 @@ class ViewController: UIViewController {
     @IBAction func Pause(sender: AnyObject) {
     }
     @IBAction func Reset(sender: AnyObject) {
-        Time.text = String(12)+":"+String(00)
-        //_time = 720
+        LeftTextField.text = "00"
+        RightTextField.text = "00"
+        Team1.text = "TEAM1"
+        Team2.text = "TEAM2"
+        
     }
     @IBAction func Cancel(sender: AnyObject) {
         
+        
     }
+    
     @IBOutlet weak var pause: UIButton!
     @IBAction func Begin(sender: AnyObject) {
         if !isBegin{

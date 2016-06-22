@@ -172,7 +172,7 @@
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <items>
                                     <navigationItem id="Nfe-nH-BoM">
-                                        <barButtonItem key="leftBarButtonItem" title="返回" style="plain" id="VAS-e9-ycj">
+                                        <barButtonItem key="leftBarButtonItem" title="返回" id="VAS-e9-ycj">
                                             <color key="tintColor" red="0.039215686270000001" green="0.37647058820000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="lQA-ph-jUe" kind="modal" id="0be-dl-uwM"/>
@@ -292,15 +292,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovh-Tz-qRg">
-                                <rect key="frame" x="163" y="437" width="137" height="40"/>
-                                <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <state key="normal" title="重置"/>
-                                <connections>
-                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RID-w9-m48"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llh-du-OVJ">
                                 <rect key="frame" x="20" y="437" width="141" height="40"/>
                                 <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
@@ -320,7 +311,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSa-jq-ghW">
-                                <rect key="frame" x="163" y="395" width="137" height="40"/>
+                                <rect key="frame" x="163" y="437" width="137" height="40"/>
                                 <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <state key="normal" title="暂停"/>
@@ -363,6 +354,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovh-Tz-qRg">
+                                <rect key="frame" x="162" y="395" width="137" height="40"/>
+                                <color key="backgroundColor" red="0.10373714529182514" green="0.87450980392156863" blue="0.82246487327526641" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="重置"/>
+                                <connections>
+                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RID-w9-m48"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74139595566257066" green="0.85984502459120016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.95606060131847759" green="1" blue="0.90802493212186863" alpha="1" colorSpace="calibratedRGB"/>
@@ -386,6 +386,6 @@
         <image name="2.ico" width="72" height="72"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WYI-da-HEf"/>
+        <segue reference="9VA-VA-slP"/>
     </inferredMetricsTieBreakers>
 </document>
